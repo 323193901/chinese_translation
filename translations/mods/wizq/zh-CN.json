@@ -13,7 +13,7 @@
 							"title": "魔法狼入侵！城镇警戒！"
 						},
 						"sighted_bulletin2": {
-							"title": "更强大的魔狼出现了！投入战斗！"
+							"title": "更强大的魔狼出现了！准备战斗！"
 						}
 					},
 					"wizard_dialogue": {
@@ -22,8 +22,8 @@
 								"msg1": {
 									"bulletin_title": "巫师",
 									"dialog_title": "一个特殊的拜访者",
-									"bulletin_message": "祝贺！我是Klaus，来自北方遗址。不过我以巫师的名号而闻名。这条魔狼注意到了你的城镇并考验了你一下。现在这条狼已经非物质化了（dematerialized）,我认为你可以借助其他力量来保卫你的领地不受敌对势力的侵犯。我可以让你学会操纵魔法，即成为巫师。",
-									"choice": "一个巫师？"
+									"bulletin_message": "祝贺！我是Klaus，来自北方遗址。不过我以巫师的名号而闻名。这条魔狼注意到了你的城镇并考验了你一下。现在这条狼已经灰飞烟灭了,因此我认为，你可以借助其他力量来保卫你的领地。我可以让你学会操纵魔法，即成为巫师。",
+									"choice": "巫师？"
 								}
 							}
 						}
@@ -33,7 +33,7 @@
 							"dialog_nodes": {
 								"simple_message": {
 									"bulletin_message": {
-										"00": "你今天打败了一只魔狼，我给你带来了一条古老的魔狼腰带。有了这条腰带，你可以学习成为像我一样的巫师的方法。然而，随着你对魔法的依赖，一股不稳定的力量会将你变为狼人。享受学习和驾驭魔法的探索的过程吧！要驾驭魔法能量和变形方法，只需为自己装备这个东西："
+										"00": "你今天打败了一只魔狼，我给你带来了一条古老的魔狼腰带。有了这条腰带，你就可以像我一样，通过学习成为巫师。然而，随着你对魔法的依赖，一股不稳定的力量会将你变为狼人。享受学习和驾驭魔法的探索的过程吧！要驾驭魔法能量和变形方法，只需为自己装备这个东西："
 									},
 									"bulletin_title": "魔狼腰带",
 									"dialog_title": "来自魔法的礼物",
@@ -47,7 +47,7 @@
 							"dialog_nodes": {
 								"msg1": {
 									"bulletin_message": {
-										"000": "我感应到这个区域有一群龙。它们很少出现在这些地方，它们有时极具侵略性，但如果它们选择某种生物成为盟友那么它们会变得很友好。你在你的城镇周围有看到它们么？"
+										"000": "我感应到这个区域有一群龙。它们很少出现在这些地方，而且有时候非常好斗，但如果它们选择成为某种生物的盟友，它们就会变得很友好。你在这附近有看到它们么？"
 									},
 									"bulletin_title": "一条龙突然出现",
 									"dialog_title": "巫师来了",
@@ -56,7 +56,7 @@
 								},
 								"end_choice": {
 									"bulletin_message": {
-										"000": "注意，看这里，一朵神奇的云正在聚集成一条龙！看起来它想和你待在一块儿。如果你愿意的话，它可以成为你领地的保卫者！我会继续在这片土地上游历。最后给你一句忠告：制造并使用强大的魔法书"
+										"000": "注意看，一朵神奇的云正在聚集成一条龙！看起来它想和你待在一块儿。如果你愿意的话，它可以成为你领地的保卫者！我会继续在这片土地上游历。最后给你一句忠告：去制造并使用强大的魔法书吧！"
 									},
 									"bulletin_title": "一条神龙",
 									"dialog_title": "巫师",
@@ -115,7 +115,7 @@
 								},
 								"end_result": {
 									"bulletin_message": {
-										"000": "我正在发生转变！我已经保护这片土地很久了，但是现在...你必须现在来干掉我...我快控制不住我自己了！准备好一场恶战！当你准备好了就来和我战斗！如果你打不过我，你可以撤退，下次再来。"
+										"000": "我正在变异！我已经保护这片土地很久了，但是现在...你必须干掉我...我快控制不住我自己了！准备好一场恶战！当你准备好了就来和我战斗！如果你打不过我，你可以撤退，下次再来。"
 									},
 									"bulletin_title": "最后一次见面",
 									"dialog_title": "一条恶狼",
@@ -145,14 +145,14 @@
 		"buffs": {
 			"boss_buff": {
 				"display_name": " 魔法盔甲",
-				"description": " 卑鄙的国家助推！（ Beastly Stat Boosts!）（不会翻译）"
+				"description": " 野兽般的能力提升！"
 			},
 			"boss_cooldown_buff": {
 				"display_name": "魔法护甲冷却时间",
 				"description": "等待魔力恢复"
 			},
 			"morphed": {
-				"display_name": "多形态",
+				"display_name": "兽化变身",
 				"description": "获得了野兽的力量！"
 			},
 			"weather": {
@@ -267,7 +267,7 @@
 			},
 			"wizard_shot": {
 				"display_name": "巫术射击",
-				"description": "利用魔法瞄准目标"
+				"description": "利用魔法狙击目标"
 			}
 		}
 	},
@@ -309,17 +309,17 @@
 				},
 				"level_6_data": {
 					"perk_000_name": "熔岩",
-					"perk_000_description": "释放一个魔法攻击，使区域内的敌人受到伤害"
+					"perk_000_description": "释放一个火魔法攻击，使区域内的敌人受到大量伤害"
 				}
 			},
 			"wizard_buffs": {
 				"morphing_buff": {
 					"display_name": "变形",
-					"description": "集聚能量以变形"
+					"description": "集聚能量以变身为更强的形态"
 				},
 				"wolf_claws": {
 					"display_name": "狼爪",
-					"description": "狼的撕扯减少了护甲"
+					"description": "护甲被锋利的狼爪破坏，降低防御"
 				},
 				"poison_cloud": {
 					"display_name": "毒雾",
@@ -334,15 +334,15 @@
 					"description": "因为巫师的寒冰攻击而减速"
 				},
 				"bolt_spell": {
-					"display_name": "恐惧",
-					"description": "护甲被巫师的魔法箭削弱"
+					"display_name": "触电",
+					"description": "护甲被巫师的雷电魔法削弱"
 				},
 				"magni_spell": {
-					"display_name": "变形",
+					"display_name": "缩放",
 					"description": "大小被魔法改变，属性被削弱"
 				},
 				"magnib_spell": {
-					"display_name": "变形",
+					"display_name": "缩放",
 					"description": "大小被龙的魔法改变"
 				}
 			},
@@ -365,7 +365,7 @@
 				},
 				"wizard_belt_talisman": {
 					"display_name": "魔狼腰带",
-					"description": "转职成巫师的必需物"
+					"description": "转职成巫师的必需品"
 				}
 			},
 			"wizard_wand": {
@@ -433,7 +433,7 @@
 				"coal_recipe": {
 					"recipe_name": "煤",
 					"description": "创造一块煤",
-					"flavor": "我想这个可以在壁炉里做..."
+					"flavor": "译者1：我想这个可以在壁炉里做...译者2：那是木炭！"
 				},
 				"copper_recipe": {
 					"recipe_name": "铜矿",
